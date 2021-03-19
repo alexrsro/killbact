@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>killbact</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/content.css">
+</head>
+
+<body>
+    <div class="anuncio__nav">
+        <p class="anuncio__nav-mensaje">Envio express dentro de la CDMX</p>
+    </div>
+    <div class="container">
+
+        <nav class="nav__main">            
+            <img src="../img/logo1.png" alt="killbact" class="nav__brand" >
+            <!-- <input type="checkbox" id="check"> -->
+            <!-- <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+
+            </label> -->
+            <ul class="nav__menu" id="nav__ul">
+                <li>
+                    <a href="index.html" class="nav__link">INICIO</a>
+                </li>
+                <li>
+                    <a href="buy.html" class="nav__link">COMPRAR</a>
+                </li>
+                <!-- <li>
+                    <a href="/" class="nav__link">CONTACTANOS</a>
+                </li>
+                <li>
+                    <a href="/" class="nav__link">CONOCENOS</a>
+                </li>
+                <li class="nav__menu-search">
+                    <a href="/" class="nav__link"><i class="fas fa-search"></i></a>
+                </li> -->
+                <li class="nav__menu-user">
+                    <a href="user.html" class="nav__link"><i class="fas fa-user"></i></a>
+                </li>
+                <li class="nav__menu-cart">
+                    <a href="shop.html" class="nav__link"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+    </div>
+
+    <div class="container__content">
+        <main>
+            <form action="" class="formulario" id="formulario">
+                <!-- grupo: Usuario -->
+                <div class="formulario__grupo" id="grupo__usuario">
+                    <label for="usuario" class="formulario__label">Usuario</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="john123">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo.</p>
+                </div>
+    
+                <!-- grupo: Nombre -->
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="john Duo">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo.</p>
+                </div>
+    
+                <!-- grupo: Contraseña -->
+                <div class="formulario__grupo" id="grupo__password">
+                    <label for="password" class="formulario__label">Contraseña</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class="formulario__input" name="password" id="password">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 digitos</p>
+                </div>
+    
+                <!-- grupo: contraseña -->
+                <div class="formulario__grupo" id="grupo__password2">
+                    <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                    <div class="formulario__grupo-input">
+                        <input type="password" class="formulario__input" name="password2" id="password2">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">Ambas contraseñas deben de ser iguales.</p>
+                </div>
+    
+                <!-- grupo: Correo Electronico -->
+                <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electronico</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guion bajo.</p>
+                </div>
+    
+                <!-- grupo: Telefono -->
+                <div class="formulario__grupo" id="grupo__Telefono">
+                    <label for="telefono" class="formulario__label">Telefono</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="Telefono" id="telefono" placeholder="5555555555">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El telefono solo puede contener numero y el maximo son 14 digitos.</p>
+                </div>
+    
+                <!-- grupo: Termino y Condiciones -->
+                <div class="formulario__grupo" id="grupo__terminos">
+                    <label class="formulario__label">
+                        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                        Acepto los Terminos y Condiciones
+                    </label>
+                </div>
+    
+                <div class="formulario__mensaje" id="formulario__mensaje" >
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor llene el formulario </p>
+                </div>
+    
+                <div class="formulario__grupo formulario__grupo-bth-enviar">
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente</p>
+                </div>
+    
+            </form>
+        </main>
+    </div>
+
+    <div class="container__footer">
+        <footer class="footer">
+            <div class="footer__left">
+                <img src="../img/logo2.png" alt="">
+                <p>Está disponible para ayudarte a desinfectar con confianza todos tus espacios, aparatos y herramientas, para que vivas tu día a día más seguro, ya sea en tu casa, tu oficina o tu negocio.</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/kill.bact"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/kill.bact"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://wa.me/c/5215533940280"><i class="fab fa-whatsapp-square"></i></a>
+                    <a href="https://t.me/killbact"><i class="fab fa-telegram-plane"></i></a>
+
+                </div>
+            </div>
+            <ul class="footer__right">
+                <li>
+                    <h2></h2>
+                    <ul class="box">
+                        <li><a href="pfre.html">Pregunta Frecuntes</a></li>
+                        <li><a href="pcam.html">Politica de Cambios y Devolucion</a></li>
+                        <li><a href="penv.html">Politica de Envio</a></li>
+                    </ul>
+                </li>
+                <li class="features">
+                    <h2></h2>
+                    <ul class="box">
+                        <li><a href="tserv.html">Terminos del Servivio</a></li>
+                        <li><a href="pcam.html">Politica de rembolso</a></li>
+                        <li><a href="ppriv.html">Politica de Privacidad</a></li>
+                    </ul>
+                </li>
+                <li class="features">
+                    <h2></h2>
+                    <ul class="box">
+                        <h4>Telefono de Atención al Cliente:</h4>
+                        <li><a href="https://wa.me/c/5215533940280">+5255 3394 0280 (L-V: 8pm a 4pm)</a></li>
+                        <li><a href="mailto:killbact@yahoo.com?subject=Contacto&body= prueba email">killbact@yahoo.com</a>
+                    </ul>
+                </li>
+            </ul>
+            <div class="foote__bottom">
+                <h6>© Grupo Codesera de México SA de CV 2021, Todos los derechos reservados. <a href="ppriv.html">Política de Privacidad</a> - <a href="tserv.html">Términos y Condiciones</a>.</h6>
+
+            </div>
+        </footer>
+    </div>
+    <!-- JS -->
+    <script src="java/script.js"></script>
+</body>
+
+</html>

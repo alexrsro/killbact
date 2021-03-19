@@ -1,0 +1,71 @@
+@media screen and (max-width: 868px) {
+    body{
+        font-size: 14px;
+    }
+    .nav__main ul li a {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .nav__brand {
+        padding: 5px;
+        margin: 0px;
+        width: 80px;
+    }
+    .container__content {
+        margin: 0 auto;
+        width: 85%;
+        font-size: 14px;
+        padding: 4%;
+    }
+    .content__policity h1 {
+        font-size: 14px;
+    }
+    .accordion h1 {
+        font-size: 14px;
+    }
+    .policambios__body h1 {
+        font-size: 14px;
+    }
+    .policambios__body {
+        font-size: 14px;
+    }
+    .polienvio__body h1 {
+        font-size: 14px;
+    }
+    .terservicio__body h1 {
+        font-size: 14px;
+    }
+    .section__header h2 {
+        font-size: 16px;
+    }
+    .container_text-body p {
+        font-size: 16px;
+    }
+    .container__content .card{
+        display: contents;
+        justify-content: center;
+    }
+       
+    .img__container {
+        background-color: transparent;
+        width: 100%;
+    }
+    .estilo__c .cart{
+        margin-top: auto;
+        justify-content: center;
+    }
+    .body__img-text {
+        flex-direction: column;
+        align-content: center;
+}
+
+@media screen and (max-width: 1220px){
+
+    nav.nav__menu{
+        font-size: x-small;
+        max-width: 500px;
+       
+        display: flex;
+    }
+}
